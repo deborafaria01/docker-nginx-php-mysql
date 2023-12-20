@@ -8,7 +8,7 @@ Docker utilizando o compose, arquivo de configuração com variáveis de ambient
 
 	80 e 443
 
-2. Volume (Obs: verificar se na configuração do docker -> drivers compartilhados, as unidades c: e/ou d: estão habilitadas)
+2. Volume (Obs.: verificar se na configuração do docker -> drivers compartilhados, as unidades c: e/ou d: estão habilitadas)
 
 	Aplicação: htdocs -> /var/www/html
 	
@@ -26,7 +26,7 @@ Docker utilizando o compose, arquivo de configuração com variáveis de ambient
 
 	9000
 
-2. Volume (Obs: verificar se na configuração do docker -> drivers compartilhados, as unidades c: e/ou d: estão habilitadas)
+2. Volume (Obs.: verificar se na configuração do docker -> drivers compartilhados, as unidades c: e/ou d: estão habilitadas)
 
 	Aplicação: htdocs -> /var/www/html
 	
@@ -40,13 +40,13 @@ Docker utilizando o compose, arquivo de configuração com variáveis de ambient
 
 	3306
 
-2. Volume (Obs: verificar se na configuração do docker -> drivers compartilhados, as unidades c: e/ou d: estão habilitadas)
+2. Volume (Obs.: verificar se na configuração do docker -> drivers compartilhados, as unidades c: e/ou d: estão habilitadas)
 
 	Aplicação: mysql/data -> /var/lib/mysql
 
 3. Configuração para conexão
 
-	- MYSQL_DATABASE      = default
+    - MYSQL_DATABASE      = default
 	
     - MYSQL_USER          = default
 	
@@ -56,7 +56,7 @@ Docker utilizando o compose, arquivo de configuração com variáveis de ambient
 	
     - MYSQL_PORT          = 3306
 	
-# Como utitilizar
+# Como utilizar
 
 1. Copie o arquivo env-example para .env.
 
