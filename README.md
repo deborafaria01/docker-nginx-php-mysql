@@ -51,15 +51,19 @@ Este repositório apresenta uma configuração Docker utilizando o Docker Compos
 
 **3. Adicione os domínios no arquivo de hosts do Windows.**
 > 127.0.0.1 localhost
+
 > 127.0.0.1 api.dev
 
 **4. Abra no navegador**
 http://localhost
+
 http://api.dev
 
 **5. Acessar o shell do container:**
 > winpty docker exec -it nginx bash
+
 > winpty docker exec -it php-fpm bash
+
 > winpty docker exec -it mysql bash
 
 **6. Acessar o BD dentro do container Mysql**
@@ -67,6 +71,9 @@ http://api.dev
 
 **7. Comandos básicos para utilizar o Banco de Dados:**
 > show databases;
+
 > create database teste;
+
 > use teste;
+
 > show tables;
