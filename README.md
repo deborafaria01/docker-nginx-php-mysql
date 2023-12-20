@@ -55,6 +55,7 @@ Este repositório apresenta uma configuração Docker utilizando o Docker Compos
 > 127.0.0.1 api.dev
 
 **4. Abra no navegador**
+
 http://localhost
 
 http://api.dev
